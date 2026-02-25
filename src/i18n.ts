@@ -10,11 +10,11 @@ i18n.use(initReactI18next).init({
         messages_one: 'У вас {{count}} непрочитанное сообщение',
         messages_few: 'У вас {{count}} непрочитанных сообщения',
         messages_many: 'У вас {{count}} непрочитанных сообщений',
-        messages_other: 'У вас {{count}} непрочитанных сообщений'
-      }
-    }
+        messages_other: 'У вас {{count}} непрочитанных сообщений',
+      },
+    },
   },
-  interpolation: { escapeValue: false }
+  interpolation: { escapeValue: false },
 });
 
 export default i18n;

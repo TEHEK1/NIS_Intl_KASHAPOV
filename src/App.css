@@ -11,12 +11,14 @@
   background: #fff;
   border-radius: 12px;
   padding: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 6%);
 }
 
-.card h2 { margin: 0 0 12px; }
+.card h2 {
+  margin: 0 0 12px;
+}
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .main-content {
     grid-template-columns: 1fr;
   }
